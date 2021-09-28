@@ -13,7 +13,7 @@ import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 @RestController
-public class ArticleController {
+public class NewsController {
 	
 	private final ArticleRepository articleRepository;
 	

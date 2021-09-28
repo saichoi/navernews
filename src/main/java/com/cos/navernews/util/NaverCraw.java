@@ -18,7 +18,7 @@ public class NaverCraw {
 	public List<Article> collect5() {
 		List<Article> articles = new ArrayList<>();
 
-		for (int i = 1; i < 3; i++) {
+		for (int i = 1; i < 6; i++) {
 			String aid = String.format("%010d", aidNum);
 			String url = "https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=102&oid=022&aid=" + aid;
 
